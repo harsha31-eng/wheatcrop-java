@@ -1,10 +1,12 @@
 # wheatcrop-java
 
 Objective:
+
 To create an interface Harvestable containing the harvest() method and implement it in the WheatCrop class.
 
 
 Java Concepts / Syntax Used:
+
 Interface
 Interface implementation
 implements keyword
@@ -12,6 +14,7 @@ Method implementation / overriding
 Object creation
 
 Syntax:
+
 interface InterfaceName {
     void methodName();
 }
@@ -25,6 +28,7 @@ class ClassName implements InterfaceName {
 
 
 Algorithm:
+
 Start.
 Create the Harvestable interface.
 Declare the harvest() method.
@@ -36,6 +40,7 @@ Stop.
 
 
 Java Code:
+
 interface Harvestable {
     void harvest();
 }
@@ -61,4 +66,5 @@ public class HarvestDemo {
 
 
 Output:
+
 Wheat is ready for harvest.
